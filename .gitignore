@@ -5,6 +5,11 @@
 # Do not ignore git files in the root of the repo.
 !/.git*
 
+# Do not ignore the built binary files.
+!/Binaries/Win64/TireStormEditor.target
+!/Binaries/Win64/UnrealEditor.modules
+!/Binaries/Win64/UnrealEditor-TireStorm.dll
+
 # Do not ignore current project's `.uproject`.
 !/*.uproject
 
